@@ -1,4 +1,6 @@
 const config = {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51IqHoRLNNxfgiKF3VmyNWbGaIFzwTfDwKZuytZY8d1O78QDQVcV6d57hkGd8xL0eHkThKE1gWeiekg7PVzOU2tON000QVOKlGN",
     s3: {
       REGION: "us-east-1",
       BUCKET: "taw-notes-app-upload",
